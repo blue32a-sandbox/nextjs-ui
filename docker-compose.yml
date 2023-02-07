@@ -5,6 +5,8 @@ services:
     image: node:18
     volumes:
       - .:/app
+      - /app/bootstrap/node_modules
+      - /app/bootstrap/.next
     working_dir: /app
     ports:
       - "3000:3000"
