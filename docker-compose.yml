@@ -7,6 +7,8 @@ services:
       - .:/app
       - /app/bootstrap/node_modules
       - /app/bootstrap/.next
+      - /app/bootstrap-adminlte/node_modules
+      - /app/bootstrap-adminlte/.next
       - /app/react-bootstrap/node_modules
       - /app/react-bootstrap/.next
     working_dir: /app
