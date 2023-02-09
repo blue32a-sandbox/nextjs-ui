@@ -9,6 +9,8 @@ services:
       - /app/bootstrap/.next
       - /app/bootstrap-adminlte/node_modules
       - /app/bootstrap-adminlte/.next
+      - /app/material-ui/node_modules
+      - /app/material-ui/.next
       - /app/react-bootstrap/node_modules
       - /app/react-bootstrap/.next
     working_dir: /app
